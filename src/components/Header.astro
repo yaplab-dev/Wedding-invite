@@ -1,0 +1,31 @@
+---
+import HeaderButton from "./HeaderButton.astro"
+
+console.log('javascript')
+---
+
+<header class="py-8 px-4 mx-auto max-w-xl lg:py-16 lg:px-6 overflow-hidden">
+    <div class="mx-auto text-center mb-8 lg:mb-16">
+        <h2 class="mb-4 text-[7rem] tracking-tight font-extrabold text-stone-100 leading-none mt-[25%]">
+            SAVE THE DATE
+        </h2>
+        <p class="font-semibold text-black sm:text-xl dark:text-stone-100">
+            Nos encantaría que nos acompañes, confirma tu asistencia!
+        </p>
+        <p class="font-black pt-3 text-black sm:text-3xl dark:text-stone-100">
+            11 de Octubre de 2024
+        </p>
+    </div>
+
+    <nav class="flex flex-col items-center justify-between w-full text-center
+    md:flex-row">
+    <HeaderButton class="" href="/Localización">
+        <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" /></svg>        Localización</HeaderButton>
+    <HeaderButton class="text-white" href="/Localización">
+        <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-heart"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg>        Confirmar Asistencia</HeaderButton>
+</nav>
+
+
+
+</header>
+
